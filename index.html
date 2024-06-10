@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-rose-200 h-screen">
+    
+    <div class="w-1/4 mt-48 h-2/5 border-2 border-pink-500 text-pink-500 rounded-md mx-auto bg-rose-100 grid grid-col text-center">
+        <h1 class="text-2xl font-semibold mt-12">Calculator Love</h1>
+        <div id="error"></div>
+        <label for="yourName">Your Name:</label>
+        <input id="yourName" class="mx-10 border border-black" type="text" placeholder="Enter Your Name">
+        <label for="PartnerName">Partner Name:</label>
+        <input id="PartnerName" class="mx-10 border border-black" type="text" placeholder="Enter Partner Name">
+        <button onclick="resultado()" class="bg-pink-500 text-white w-20 mt-4 mx-auto rounded-md">Calculate</button>
+        <p id="resultado">Result</p>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
